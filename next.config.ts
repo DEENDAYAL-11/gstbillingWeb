@@ -1,8 +1,15 @@
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  reactStrictMode: true,
+// const nextConfig: NextConfig = {
+//   /* config options here */
+//   reactStrictMode: true,
+// };
+
+// export default nextConfig;
+const nextConfig = {
+  images: {
+    domains: ['via.placeholder.com', 'ui-avatars.com', 'your-other-domains.com'],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig
