@@ -1,8 +1,7 @@
 // components/Hero.tsx
-
-import Image from 'next/image';
-import Link from 'next/link';
-import { FaShieldAlt, FaFlag, FaThumbsUp } from 'react-icons/fa';
+import Image from "next/image";
+import Link from "next/link";
+import { FaShieldAlt, FaFlag, FaThumbsUp } from "react-icons/fa";
 
 export default function HeroBanner() {
   return (
@@ -12,10 +11,12 @@ export default function HeroBanner() {
         {/* Left Side - Content */}
         <div className="lg:w-1/2">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-            Best Billing & Invoicing Software in India
+            GSTbillBook – Best Billing & Invoicing Software in India
           </h1>
           <p className="text-gray-300 mb-6">
-            <span className="text-white font-semibold">Join over Indian Small Businesses</span> who trust our app for GST Billing, Invoicing, e-Invoicing and e-Way Billing.
+            <span className="text-white font-semibold">Join thousands of Indian Small Businesses</span>{" "}
+            who trust <span className="text-yellow-400 font-bold">GSTbillBook</span> for GST Billing, Invoicing,
+            e-Invoicing and e-Way Billing.
           </p>
 
           {/* Buttons */}
